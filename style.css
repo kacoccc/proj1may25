@@ -1,0 +1,27 @@
+body {
+  background-color: pink;
+  font-family: "Krona One", sans-serif;
+}
+
+h1 {
+  color: yellow;
+  font-size: 50px;
+  text-align: center;
+}
+h1:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  /* when no internet connect, the fallback font will be sans-serif */
+  font-family: "Krona One", sans-serif;
+}
+
+h2:hover {
+  text-decoration: none;
+}
